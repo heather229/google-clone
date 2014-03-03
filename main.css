@@ -1,0 +1,181 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* this is just for visual purpose only remove later
+
+* { 
+  outline: 1px solid black;
+} */
+
+/* Heather's code below */
+
+.header {
+	float: right;
+}
+
+.header ul {
+	list-style-type: none;
+	font-family: arial;
+	font-size: 12px;
+}
+
+.header ul li {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: #424242;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.header li img {
+	width: 20px;
+}
+
+.button {
+	border-style: none;
+	border-radius: 2px;
+	padding: 6px;
+	background: #48f;
+	border: 1px solid #48f;
+	margin-right: 10px;
+}
+
+#button-text {
+	font-size: 13px;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.logo {
+	clear: both;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.logo img {
+	width: 275px;
+}
+
+
+form {
+	clear: both;
+	text-align: center;
+}
+
+form input {
+	height: 23px;
+	border-style: 1px solid #606060;
+}
+
+form input[type=text] {
+	background: url(images/microphone.png) right no-repeat;
+	background-size: 25px;
+}
+
+.google-buttons {
+	clear: both;
+	text-align: center;
+	font-family: arial;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 10px;
+}
+
+.google-buttons input {
+	display: inline-block;
+	border-style: none;
+	border-radius: 2px;
+	padding: 6px;
+	background: #f2f2f2;
+	border: 1px solid #D8D8D8;
+	font-weight: bold;
+	color: #424242;
+	margin-right: 10px;
+}
+
+.google-buttons input:hover {
+	font-weight: bolder;
+	box-shadow: 1px 1px 0px #999;
+}
+
+#footer {
+	clear: both;
+	background-color: #f2f2f2;
+	width: 100%;
+    height: 43px;
+    position: absolute;
+    bottom: 0;
+}
+
+#footer ul {
+	list-style-type: none;
+	font-family: arial;
+	font-size: 13px; 
+}
+
+#footer ul li {
+	display: inline-block;
+	padding: 12px;
+	color: #424242;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+}
